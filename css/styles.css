@@ -1,17 +1,172 @@
-/* font-family: "Roboto", sans-serif;
-font-family: "Roboto", sans-serif; */
-
 body {
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #fff;
-
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  letter-spacing: 0.02em;
 }
 
-ul, ol {
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+/* Heder */
+
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+.hero-section {
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.order-service-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+/* Our advantages */
+
+.advantages-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.advantages-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Our Team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+text-align: center;
+  color: #2e2f42;
+}
+
+.team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+text-align: center;
+}
+
+/* Our Portfolio */
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* footer */
+
+.footer-section {
+background-color: #2e2f42;
+}
+
+.footer-logo .footer-logo-part {
+  color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
 }
