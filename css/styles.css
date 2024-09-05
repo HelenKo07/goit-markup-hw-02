@@ -55,6 +55,16 @@ a {
   color: #404bbf;
 }
 
+.nav-link-portfolio:hover,
+.nav-link-portfolio:focus {
+  color: #404bbf;
+}
+
+.nav-link-contacts:hover,
+.nav-link-contacts:focus {
+  color: #404bbf;
+}
+
 .contacts {
   font-style: normal;
 }
